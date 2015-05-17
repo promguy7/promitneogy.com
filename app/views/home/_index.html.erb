@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Welcome home Promit</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Promit</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,20 +47,24 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#works">Works</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
+                     
+                    <!-- <li>
                         <a class="page-scroll" href="home/v_vchat_public">Public Chat</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="home/v_vchat_private_broadcast">Private Chat</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,193 +75,173 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Welcome to my World</h1>
+                <h1>Promit Neogy</h1>
                 <hr>
-                <p>This is where I duel and Fell Free to express my shit.</p>
+                <p>I am a mumbai based <span style='color:#fff'><b>Web Developer</b></span> trying to make a difference.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+<!-- About me sections -->
+    
+       <section id="about">
+
+          <div class="row">
+
+             <div class="three columns">
+
+                <img class="profile-pic"  src="<%=asset_path('profilepic.jpg')%>" alt="" />
+
+             </div>
+
+             <div class="nine columns main-col">
+
+                <h2> Me</h2> <hr class='smalltopic'>
+
+                <p>Hello I am full-stack web developer with over three years of professional experience. Focused on sustainable and scalable web application architecture using Ruby on Rails with extensive cutting edge technologies like Mongodb,Redis etc.Apart from development, I have extensive knowledge on operations(Ruby on rails Architecture setup with Apache and passenger etc.). I have worked on numerous projects with a wide range of frameworks.I am keen in learning new technologies and implementing new ideas to help build an enhanced web experience.I love to work on modern web technologies(Redis,mongodb,angular js etc ) to make the web experience flawless and interesting.I have acquired a deep understanding of user requirements which helps me to visualize and prototype to give the best experience to the user. I also consider myself to have excellent communication and motivational skills along with good qualities of a Team Lead with shared learning.
+                </p>
+
+             </div> <!-- end .main-col -->
+
+          </div>
+
+       </section> <!--  Section End-->
+
+<!-- Work -->
+<section id="works">
+      <div class="row">
+
+         <center><div><h2><span>My Works</span></h2><hr></div></center>
+         <!-- Work 1 -->
+         <div class="three columns">
+
+                <img class="trustydeal"  src="<%=asset_path('TrustyDeal.png')%>" alt="" />
+
+             </div>
+
+             <div class="nine columns main-col">
+
+                <h2>TrustyDeal.com</h2> <hr class='smalltopic_td'>
+
+                <p>TrustyDeal is India’s first social classified website.People can find what their friends are selling.Compare deals based on Trust Factor Ratings.
+                </br>
+               </br>
+                    <a href="http://www.trustydeal.com" target="_blank">www.trustydeal.com</a>
+
+                </p>
+
+             </div> <!-- end .main-col -->
+
+             <!-- Work 2 -->
+             <div class="three columns">
+
+                <img class="vdogaga"  src="<%=asset_path('vdogaga.png')%>" alt="" />
+
+             </div>
+
+             <div class="nine columns main-col">
+
+                <h2>Vdogaga</h2> <hr class='smalltopic_vd'>
+
+                <p>This was my very first time experience of Online Broadcasting in India. The experience of live karaoke in India and earn performing.
+                </br>
+               </br>
+                    <a href="https://secure-citadel-6909.herokuapp.com/" target="_blank">www.vdogaga.com</a>
+
+                </p>
+
+             </div> <!-- end .main-col -->
+
+      </div> <!-- End skills -->
+
+
+</section>
+<!-- Work end -->
+<!-- Skills -->
+<section id="skills">
+      <div class="row">
+
+         <center><div><h2><span>SKILLS</span></h2><hr></div></center>
+
+         <div class="skill">
+
+                <div class="bars">
+
+                   <ul class="skills">
+                       <li><span class="bar-expand eightyfive"></span><em>Ruby on Rails</em></li>
+                  <li><span class="bar-expand eightyfive"></span><em>MySQL | MongoDB | Postgres</em></li>
+                        <li><span class="bar-expand fiftyfive"></span><em>HTML | CSS</em></li>
+                        <li><span class="bar-expand fifty"></span><em>Javascript</em></li>
+                        <li><span class="bar-expand seventy"></span><em>C Plus Plus | Java</em></li>
+                  <li><span class="bar-expand seventyfive"></span><em>Devops</em></li>
+                  <li><span class="bar-expand sixty"></span><em>Redis | Memcache</em></li>
+                    </ul>
+
+                </div><!-- end skill-bars -->
+
+            </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+
+</section>
+
+<!-- Skills end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="bg-primary" id="resume">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">You can get all the details here !</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    <a href="/resume.pdf" target="_blank" class="btn btn-default btn-xl">View Full Resume</a>
+                    <a href="/resume.docx" target="_blank" class="btn btn-default btn-xl">Download Resume</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside> -->
-
+        
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
+                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
+                    <p>+91-8097229411</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:promguy7@gmail.com">promguy7@gmail.com</a></p>
                 </div>
             </div>
+            <center><ul class="social-links">
+               <!-- <li><a href="" target="_blank"><i class="fa fa-github"></i></a></li> -->
+               <li><a href="https://www.facebook.com/promit.neogy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/117918876790437905166" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://in.linkedin.com/pub/promit-neogy/48/349/230" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <div class="copyright">
+               <span>&copy; Copyright Promit Neogy</span>
+               <span>Credits <a title="Styleshout" href="http://startbootstrap.com/template-categories/one-page/">Start Bootstrap</a></span>   
+            </div>
+            </center>
         </div>
     </section>
 
