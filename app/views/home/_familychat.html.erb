@@ -123,7 +123,7 @@
                         if (typeof roomsList === 'undefined') roomsList = document.body;
 
                         var tr = document.createElement('tr');
-                        tr.innerHTML = '<td><strong>' + room.roomName + '</strong> shared a conferencing room with you!</td>' +
+                        tr.innerHTML = '<td><strong>' + room.roomName + '</strong> shared a chat room with you!</td>' +
                             '<td><button class="join">Join</button></td>';
                         roomsList.insertBefore(tr, roomsList.firstChild);
 
@@ -178,7 +178,7 @@
                             config.attachStream = stream;
                             callback && callback();
 
-                            video.setAttribute('muted', true);
+                            video.setAttribute('muted', false);
                             
                             var mediaElement = getMediaElement(video, {
                                 width: (videosContainer.clientWidth / 2) - 50,
