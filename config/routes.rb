@@ -34,7 +34,7 @@ Rails.application.routes.draw do
      end
   end
 
- get 'NEOGYS', to: 'home#familychat'
+ get 'CHAT', to: 'home#familychat'
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
