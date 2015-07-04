@@ -30,10 +30,11 @@ Rails.application.routes.draw do
      collection do
        get 'v_vchat_public'
        get 'v_vchat_private_broadcast'
+       get 'familychat'
      end
   end
 
-
+ get 'NEOGYS', to: 'home#familychat'
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales

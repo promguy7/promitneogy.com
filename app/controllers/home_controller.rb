@@ -10,4 +10,8 @@ class HomeController < ApplicationController
 	def v_vchat_private_broadcast
 		render partial: "home/v_vchat_private_broadcast.html.erb"
 	end
+
+	def familychat
+		render partial: "home/familychat"
+	end
 end
